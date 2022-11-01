@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('truetype');
+}
+
+body {
+    background: #c5ebd6;   
+    
+}
+
+header {
+    background-image: linear-gradient(to top, green, rgb(44, 224, 44));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px 2px 10px 2px;      
+}   
+
+header > nav {
+    color: rgba(255, 255, 255, 0.644);
+    text-align: left;
+    margin-left: 15px;
+}
+
+
+nav > a {
+    color: rgba(245, 245, 245, 0.842);
+    text-decoration: none;
+    padding-right: 15px;    
+}
+nav > a:hover {
+    background-color: yellow;
+}
+
+article {
+    background-color: white;
+    font-family: Android, Arial, Helvetica, sans-serif;
+    color: green;
+    width: 850px;  
+    padding: 10px 20px;  
+    margin: auto;   
+
+}
+article > p {
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: justify;    
+    color: black; 
+    text-indent: 30px;
+}
+article > p > a {
+    background-color: rgb(112, 223, 112);
+    text-decoration: none;
+}
+
+article > p > img#bugdroid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+article > p#videoandroid {
+    background-color: rgb(1, 68, 1);    
+}
+
+.palavraschave {
+    color: green;
+}
+
+h3 {
+    background-image: linear-gradient(to right, rgb(136, 214, 136), rgb(200, 236, 200), white);
+}
+
+h4 {
+    background-color: rgb(50, 134, 50);
+    color: white;
+
+}
+article#endpage {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(178, 250, 178);
+    border-radius: 5%;
+    color: black;    
+    padding: 1px;
+}
+article#endpage > ul {
+     list-style-type: "\2713";
+
+}
+
